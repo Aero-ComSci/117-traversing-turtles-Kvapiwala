@@ -17,7 +17,11 @@
 
 ## Questions about the Activity as you work. 
 ```
-
+Step 5: The loop prints every value in the list new_list. This is because the loop ends up iterating through every value and then prints that value.
+step 6:
+   a. Print(new_list) prints all values in one line whilst the for loop prints each value in a new line.
+   b. The loop iterate for the same amount of times as the amount of values in the list, so 5 times.
+   c. The loop variable is animal
 ```
 #### Description Of The App according to User Story
 
