@@ -22,6 +22,9 @@ step 6:
    a. Print(new_list) prints all values in one line whilst the for loop prints each value in a new line.
    b. The loop iterate for the same amount of times as the amount of values in the list, so 5 times.
    c. The loop variable is animal
+step 16:
+   a. If you remove a color from the color list an error happens whilst iterating through, this is because the iteration is based off the amount of turtles there are in the turtle_shapes list, hence there must be a matching amount of colors, when it gets to the last shape the loop fails to pop another color because it does not exist.
+   b. Removing a shape from the turtle list does not cause an error, rather it just iterates for less amount of times. Because our loop is based on the shapes in the list, if you remove one it simply iterates one time less. 
 ```
 #### Description Of The App according to User Story
 
