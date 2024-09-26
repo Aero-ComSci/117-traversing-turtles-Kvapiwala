@@ -2,7 +2,7 @@
 #   a117_traversing_turtles.py
 #   Add code to make turtles move in a circle and change colors.
 import turtle as trtl
-
+trtl.speed(0)
 # create an empty list of turtles
 
 class Turtles:
@@ -45,10 +45,13 @@ class Turtles:
       move = move*1.1
   
   def __str__(self):
-    Turtles = []
-    for shape in self.turtle_shapes:
-      Turtles.append(shape)
-    return f"All the different Turtles visible are {Turtles}"
+    seen = [] #list  that checks for duplicates
+    Turtles = [] #List  to store turtles
+    for shape in self.turtle_shapes: 
+      if shape not in seen: #checks for duplicates and then only adds once
+       seen.append(shape)
+       Turtles.append(shape)
+    return f"All the unique shapes visible are {Turtles}"
 
 draw = Turtles()
 draw.draw()
