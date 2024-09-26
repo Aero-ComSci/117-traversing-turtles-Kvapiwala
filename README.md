@@ -26,8 +26,10 @@ step 16:
    a. If you remove a color from the color list an error happens whilst iterating through, this is because the iteration is based off the amount of turtles there are in the turtle_shapes list, hence there must be a matching amount of colors, when it gets to the last shape the loop fails to pop another color because it does not exist.
    b. Removing a shape from the turtle list does not cause an error, rather it just iterates for less amount of times. Because our loop is based on the shapes in the list, if you remove one it simply iterates one time less.
 ```
-# important note about the __str__ method:
-The colors cannot be displayed since we are popping all the values out of that list in the loop, hence when trying to return that list, it just displays an empty list. 
+## important note about the __str__ method:
+The colors cannot be displayed since we are popping all the values out of that list in the loop, hence when trying to return that list, it just displays an empty list. So in the __str__ method I have only returned the turtles present in the image.(Baez Approved) 
+
+
 #### Description Of The App according to User Story
 
 `
