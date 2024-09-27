@@ -34,4 +34,7 @@ The colors cannot be displayed since we are popping all the values out of that l
 
 `
 # Include a video of the result of the code at speed 0 or Fast. Be sure to make it available for me to see.
+
+I staged the video from git and I dont know why it does not bypass the file limit, it is still under 25mb limit but here it is linked here:
+ https://github.com/Aero-ComSci/117-traversing-turtles-Kvapiwala/blob/main/20240926_170058.mp4 
 ## For Regrades use the Feedback and @baeztheprog on your commit messages.
