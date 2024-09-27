@@ -32,7 +32,8 @@ The colors cannot be displayed since we are popping all the values out of that l
 
 #### Description Of The App according to User Story
 
-`
+` This app simply draws a spiral pattern increasing in size using different turtle shapes and colors based of a data list that contains those values. It is done by using loops and iterating through for item in the lists and using positional, heading, and sizing variables to scale the spiral. This program is for anyone wanting to learn how to use loops and how you can use other variables to determine drawing factors in Turtle. 
+
 # Include a video of the result of the code at speed 0 or Fast. Be sure to make it available for me to see.
 
 I staged the video from git and I dont know why it does not bypass the file limit, it is still under 25mb limit but here it is linked here:
